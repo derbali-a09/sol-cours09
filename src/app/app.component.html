@@ -6,3 +6,10 @@
   <a class="btn btn-outline-success" routerLink="/add">Ajouter</a>
   <router-outlet></router-outlet>
 </div>
+
+<h1>Il y a {{names.length}} noms</h1>
+<ul>
+  <li *ngFor="let n of names">{{n}}</li>
+</ul>
+
+
